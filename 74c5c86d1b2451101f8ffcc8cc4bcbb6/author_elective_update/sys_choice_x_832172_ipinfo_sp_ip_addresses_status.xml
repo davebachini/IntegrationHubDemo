@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_832172_ipinfo_sp_ip_addresses" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_832172_ipinfo_sp_ip_addresses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-07 07:40:41</sys_created_on>
+            <sys_id>c3bee8ad1b2851101f8ffcc8cc4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
+            <sys_update_name>sys_choice_x_832172_ipinfo_sp_ip_addresses_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-07 07:40:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_832172_ipinfo_sp_ip_addresses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-07 07:41:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2ce20ed1b2851101f8ffcc8cc4bcb58</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-07 07:41:08</sys_updated_on>
+            <value>accepted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_832172_ipinfo_sp_ip_addresses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-07 07:40:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7ae286d1b2851101f8ffcc8cc4bcbe7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-07 07:40:44</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_832172_ipinfo_sp_ip_addresses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-07 07:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30de20ed1b2851101f8ffcc8cc4bcb59</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-07 07:41:17</sys_updated_on>
+            <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>For Verification</label>
+            <language>en</language>
+            <name>x_832172_ipinfo_sp_ip_addresses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-07 07:40:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7be6cad1b2851101f8ffcc8cc4bcb59</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-07 07:41:00</sys_updated_on>
+            <value>verification</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
