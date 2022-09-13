@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>1</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 04:52:57</sys_created_on>
+        <sys_id>9f0a05c71b3511101f8ffcc8cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>26131ec21b7d91101f8ffcc8cc4bcbba</sys_name>
+        <sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_9f0a05c71b3511101f8ffcc8cc4bcb12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 04:52:57</sys_updated_on>
+        <test display_value="Token Checking">26131ec21b7d91101f8ffcc8cc4bcbba</test>
+        <test_suite display_value="IntegrationHubDemo Tests">fbe9c5871b3511101f8ffcc8cc4bcba7</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</application>
+        <file_path/>
+        <instance_id>3ed2a421dbf0f3c04d2bac44d4961916</instance_id>
+        <instance_name>dev80684</instance_name>
+        <name>sys_atf_test_suite_test_9f0a05c71b3511101f8ffcc8cc4bcb12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order>1</order><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-12 04:52:57</sys_created_on><sys_id>9f0a05c71b3511101f8ffcc8cc4bcb12</sys_id><sys_mod_count>0</sys_mod_count><sys_name>26131ec21b7d91101f8ffcc8cc4bcbba</sys_name><sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package><sys_policy/><sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope><sys_update_name>sys_atf_test_suite_test_9f0a05c71b3511101f8ffcc8cc4bcb12</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-12 04:52:57</sys_updated_on><test display_value="Token Checking">26131ec21b7d91101f8ffcc8cc4bcbba</test><test_suite display_value="IntegrationHubDemo Tests">fbe9c5871b3511101f8ffcc8cc4bcba7</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>720083635</payload_hash>
+        <record_name>26131ec21b7d91101f8ffcc8cc4bcbba</record_name>
+        <reverted_from/>
+        <source>dc08f3221b6c55101f8ffcc8cc4bcbc0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 04:52:57</sys_created_on>
+        <sys_id>53dac9c71b3511101f8ffcc8cc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183300b199e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 04:52:57</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>9bdac9c7143511105cd3a39c2eece84c</update_guid>
+        <update_guid_history>9bdac9c7143511105cd3a39c2eece84c:720083635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-13 05:51:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>08dfc331c01647c08c7cc5e32c231000</sys_id>
+        <sys_metadata>9f0a05c71b3511101f8ffcc8cc4bcb12</sys_metadata>
+        <sys_name>26131ec21b7d91101f8ffcc8cc4bcbba</sys_name>
+        <sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">4a40ca03bc8e499abe2bf917405bf221</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_9f0a05c71b3511101f8ffcc8cc4bcb12</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_9f0a05c71b3511101f8ffcc8cc4bcb12">53dac9c71b3511101f8ffcc8cc4bcb4d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>4</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 04:54:42</sys_created_on>
+        <sys_id>873b09871b3511101f8ffcc8cc4bcbc9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>caa84a4a1b3d91101f8ffcc8cc4bcb8a</sys_name>
+        <sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_873b09871b3511101f8ffcc8cc4bcbc9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 04:54:50</sys_updated_on>
+        <test display_value="Invalid Command - length of parameters">caa84a4a1b3d91101f8ffcc8cc4bcb8a</test>
+        <test_suite display_value="IntegrationHubDemo Tests">fbe9c5871b3511101f8ffcc8cc4bcba7</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</application>
+        <file_path/>
+        <instance_id>3ed2a421dbf0f3c04d2bac44d4961916</instance_id>
+        <instance_name>dev80684</instance_name>
+        <name>sys_atf_test_suite_test_873b09871b3511101f8ffcc8cc4bcbc9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order>4</order><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-12 04:54:42</sys_created_on><sys_id>873b09871b3511101f8ffcc8cc4bcbc9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>caa84a4a1b3d91101f8ffcc8cc4bcb8a</sys_name><sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package><sys_policy/><sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope><sys_update_name>sys_atf_test_suite_test_873b09871b3511101f8ffcc8cc4bcbc9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-12 04:54:50</sys_updated_on><test display_value="Invalid Command - length of parameters">caa84a4a1b3d91101f8ffcc8cc4bcb8a</test><test_suite display_value="IntegrationHubDemo Tests">fbe9c5871b3511101f8ffcc8cc4bcba7</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>-827227073</payload_hash>
+        <record_name>caa84a4a1b3d91101f8ffcc8cc4bcb8a</record_name>
+        <reverted_from/>
+        <source>dc08f3221b6c55101f8ffcc8cc4bcbc0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 04:54:50</sys_created_on>
+        <sys_id>724bc10b1b3511101f8ffcc8cc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183300cd45a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 04:54:50</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>7a4bc10b21351110162765b097ce62fa</update_guid>
+        <update_guid_history>7a4bc10b21351110162765b097ce62fa:-827227073,384b050bd13511107bd2552197210f15:-895463383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-13 05:51:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>633e551fcf56478c9f3c1eb6fb91ab89</sys_id>
+        <sys_metadata>873b09871b3511101f8ffcc8cc4bcbc9</sys_metadata>
+        <sys_name>caa84a4a1b3d91101f8ffcc8cc4bcb8a</sys_name>
+        <sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">4a40ca03bc8e499abe2bf917405bf221</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_873b09871b3511101f8ffcc8cc4bcbc9</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_873b09871b3511101f8ffcc8cc4bcbc9">724bc10b1b3511101f8ffcc8cc4bcbfb</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
