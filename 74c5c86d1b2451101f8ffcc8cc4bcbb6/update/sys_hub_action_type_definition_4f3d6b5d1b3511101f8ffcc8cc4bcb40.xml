@@ -264,17 +264,17 @@
     <sys_hub_step_ext_output action="delete_multiple" query="model=128dab9d1b3511101f8ffcc8cc4bcb23"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=128dab9d1b3511101f8ffcc8cc4bcb23^sys_idNOT IN2c3af2d31bb951101f8ffcc8cc4bcbd0,dbae23111b7511101f8ffcc8cc4bcbe7"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <input_name>query_params</input_name>
         <instance>128dab9d1b3511101f8ffcc8cc4bcb23</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn 5;","savedValue":""}}</script>
+        <script>{"name-values-0-value-input":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn 5;","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-13 07:37:51</sys_created_on>
         <sys_id>2c3af2d31bb951101f8ffcc8cc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-13 07:37:51</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>francis.regalado</sys_updated_by>
+        <sys_updated_on>2022-09-13 07:49:28</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
