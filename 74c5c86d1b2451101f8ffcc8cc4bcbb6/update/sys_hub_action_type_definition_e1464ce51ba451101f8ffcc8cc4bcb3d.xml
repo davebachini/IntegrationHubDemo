@@ -14,7 +14,7 @@
 Get geographic data from a public IP address.</description>
         <ih_action>false</ih_action>
         <internal_name>get_geographic_data_from_ip</internal_name>
-        <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":"","reference_display":"","base_type":"ip_address","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7caf16fa-3464-4e47-8fb9-bc3029c0ad9c].response_body}}","label":"step➛ Call IPInfo REST API➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[7caf16fa-3464-4e47-8fb9-bc3029c0ad9c].status_code}}","label":"step➛ Call IPInfo REST API➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe]._}}","label":"step➛Parse Returned Data➛","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].hostname}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].city}}","label":"step➛Parse Returned Data➛city","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].region}}","label":"step➛Parse Returned Data➛region","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].country}}","label":"step➛Parse Returned Data➛country","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].latitude}}","label":"step➛Parse Returned Data➛latitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].longitude}}","label":"step➛Parse Returned Data➛longitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.first_glacier}}","label":"action➛First glacier","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.glaciers_per_page}}","label":"action➛Glaciers per page","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pages_to_get}}","label":"action➛Pages to get","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":"","reference_display":"","base_type":"ip_address","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"5a26527c-d65d-4d5c-9e0e-89792ea14c74","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{action.starting_page}}","label":"action➛Starting Page","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"ee33b1f8-cf66-4ca9-84ef-f45495c4d42c"}},{"name":"{{action.number_of_pages}}","label":"action➛Number of Pages","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"c2701465-81a9-45f7-bb50-686934e6ddb3"}},{"name":"{{action.number_of_records_per_page}}","label":"action➛Number of Records per Page","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"3313049d-6603-4cf2-90d2-458c5d2ecfcb"}},{"name":"{{action.profile}}","label":"action➛Profile","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.drilldowns}}","label":"action➛Drilldowns","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.measures}}","label":"action➛Measures","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.city}}","label":"action➛City","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0126f5f9-014c-4922-b95d-1cebd6a0b215].variable}}","label":"step➛Data Validation➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0126f5f9-014c-4922-b95d-1cebd6a0b215].first_glacier_to_get}}","label":"step➛Data Validation➛First glacier to get","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0126f5f9-014c-4922-b95d-1cebd6a0b215].glaciers_per_page}}","label":"step➛Data Validation➛Glaciers per page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[0126f5f9-014c-4922-b95d-1cebd6a0b215].number_of_pages}}","label":"step➛Data Validation➛Number of pages","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8fec165f-0327-42fd-907d-c4e3f6876c5e].glacier_number}}","label":"step➛Pagination Setup step➛glacier_number","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8fec165f-0327-42fd-907d-c4e3f6876c5e].glaciers_per_page }}","label":"step➛Pagination Setup step➛glaciers_per_page ","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8fec165f-0327-42fd-907d-c4e3f6876c5e].glaciers_per_page}}","label":"step➛Pagination Setup step➛glaciers_per_page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbcf7f0-44e0-4954-8ce9-ca8edd2f9d34"}},{"name":"{{step[7caf16fa-3464-4e47-8fb9-bc3029c0ad9c].response_body}}","label":"step➛ Call IPInfo REST API➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[7caf16fa-3464-4e47-8fb9-bc3029c0ad9c].status_code}}","label":"step➛ Call IPInfo REST API➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe]._}}","label":"step➛Parse Returned Data➛","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].hostname}}","label":"step➛Parse Returned Data➛hostname","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].city}}","label":"step➛Parse Returned Data➛city","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].region}}","label":"step➛Parse Returned Data➛region","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].country}}","label":"step➛Parse Returned Data➛country","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].latitude}}","label":"step➛Parse Returned Data➛latitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[45effd67-710b-472c-89c5-99f13d721bfe].longitude}}","label":"step➛Parse Returned Data➛longitude","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[34d56ef1-8066-444e-b46e-99ebd8b2a131].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[34d56ef1-8066-444e-b46e-99ebd8b2a131].ip_address}}","label":"step➛Script step➛ip_address","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[4145cc51-0d23-4e4b-a6c0-1e97bd14ba29].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4145cc51-0d23-4e4b-a6c0-1e97bd14ba29].starting_page}}","label":"step➛Script step➛Starting Page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"fb61202e-0bfe-4e2f-b827-e093c561b084"}},{"name":"{{step[4145cc51-0d23-4e4b-a6c0-1e97bd14ba29].number_of_pages}}","label":"step➛Script step➛Number of Pages","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"dd0f9a1e-7364-4ff5-af41-0e85e5b2d70f"}},{"name":"{{step[4145cc51-0d23-4e4b-a6c0-1e97bd14ba29].number_of_records_per_page}}","label":"step➛Script step➛Number of Records per Page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"76eb07da-2797-4cd9-a470-6bedb333bd8c"}},{"name":"{{step[7910c4c2-7f1c-42fd-ba9b-ca9cdc4ddd7f].starting_page}}","label":"step➛Pagination Setup step➛starting_page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7910c4c2-7f1c-42fd-ba9b-ca9cdc4ddd7f].number_of_records_per_page}}","label":"step➛Pagination Setup step➛number_of_records_per_page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4145cc51-0d23-4e4b-a6c0-1e97bd14ba29].last_page}}","label":"step➛Script step➛Last Page","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"959b84cc-b0d9-416d-8a1d-9c4268ff262c"}}]</label_cache>
         <master_snapshot>61e9a0a91b2851101f8ffcc8cc4bcb03</master_snapshot>
         <name>Get Geographic Data from IP</name>
         <natlang/>
@@ -47,10 +47,10 @@ Get geographic data from a public IP address.</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 04:56:11</sys_created_on>
         <sys_id>111944e91ba451101f8ffcc8cc4bcb0c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 05:44:43</sys_updated_on>
-        <value>{"version":"1.0","serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD991904e9baa45110ab03969565724aef":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD991904e9baa45110ab03969565724aef.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"222e777b-ec0b-4015-9030-57c6b766413b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD991904e9baa45110ab03969565724aef\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2022-09-15 05:14:00</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD991904e9baa45110ab03969565724aef":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD991904e9baa45110ab03969565724aef.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"222e777b-ec0b-4015-9030-57c6b766413b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD991904e9baa45110ab03969565724aef\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">111904e91ba451101f8ffcc8cc4bcbf2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -110,11 +110,11 @@ Get geographic data from a public IP address.</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 05:29:41</sys_created_on>
         <sys_id>d4c0d0a11be451101f8ffcc8cc4bcbc3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 05:29:41</sys_updated_on>
+        <sys_updated_on>2022-09-15 05:22:16</sys_updated_on>
         <table>var__m_sys_hub_action_output_e1464ce51ba451101f8ffcc8cc4bcb3d</table>
-        <value>{{action.ip_address}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>latitude</field>
@@ -194,10 +194,10 @@ Get geographic data from a public IP address.</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 04:45:56</sys_created_on>
         <sys_id>53b680691ba451101f8ffcc8cc4bcbcb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 05:57:33</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:18:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=53b680691ba451101f8ffcc8cc4bcbcb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -362,9 +362,9 @@ Get geographic data from a public IP address.</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 04:45:57</sys_created_on>
         <sys_id>e7b680691ba451101f8ffcc8cc4bcbfb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 04:57:25</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:18:50</sys_updated_on>
         <value/>
         <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
@@ -496,11 +496,11 @@ Get geographic data from a public IP address.</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 04:45:57</sys_created_on>
         <sys_id>efb680691ba451101f8ffcc8cc4bcbf9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 04:57:25</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:18:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{{action.ip_address}}/json</value>
+        <value>/﻿{{action.ip_address}}/json﻿</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -605,13 +605,13 @@ Get geographic data from a public IP address.</description>
         <input_name>resource_path</input_name>
         <instance>53b680691ba451101f8ffcc8cc4bcbcb</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"resource_path":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar ip_address \u003d fd_data.action_inputs.ip_address;\nvar append \u003d \"/json\";\nip_address \u003d ip_address.replace(\"%EF\");\nip_address \u003d ip_address.replace(\"%BB\");\nip_address \u003d ip_address.replace(\"%BF\");\n\nvar resourcePath \u003d ip_address + append;\ngs.info(\"IP Address: \" + ip_address);\nreturn decodeURI(resourcePath);"}}</script>
+        <script>{"resource_path":{"scriptActive":true,"script":"var ip \u003d fd_data.action_inputs.ip_address;\nip \u003d ip.replace(\"﻿\",\"\");\n\nreturn \"/\" + ip + \"/json\";\n\n// ﻿ is appended to a string\n// https://ipinfo.io/8.8.8.8﻿/json"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 05:44:42</sys_created_on>
         <sys_id>e4c6ab951b3511101f8ffcc8cc4bcb3c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 06:05:16</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:30:36</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_53b680691ba451101f8ffcc8cc4bcbcb^sys_idNOT IN2e5714291be451101f8ffcc8cc4bcbd7"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -654,10 +654,10 @@ Get geographic data from a public IP address.</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 05:26:35</sys_created_on>
         <sys_id>ba0018611be451101f8ffcc8cc4bcbba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 05:26:36</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:18:22</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ba0018611be451101f8ffcc8cc4bcbba"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1563,7 +1563,7 @@ Get geographic data from a public IP address.</description>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=e1464ce51ba451101f8ffcc8cc4bcb3d^sys_idNOT IN491904e91ba451101f8ffcc8cc4bcbab"/>
+    <sys_hub_action_input action="delete_multiple" query="model=e1464ce51ba451101f8ffcc8cc4bcb3d^sys_idNOT IN22e845441b4611101f8ffcc8cc4bcba5"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1625,8 +1625,8 @@ Get geographic data from a public IP address.</description>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-07 04:56:10</sys_created_on>
-        <sys_id>491904e91ba451101f8ffcc8cc4bcbab</sys_id>
+        <sys_created_on>2022-09-15 07:18:22</sys_created_on>
+        <sys_id>22e845441b4611101f8ffcc8cc4bcba5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1634,7 +1634,7 @@ Get geographic data from a public IP address.</description>
         <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 04:56:10</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:18:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1647,7 +1647,7 @@ Get geographic data from a public IP address.</description>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=491904e91ba451101f8ffcc8cc4bcbab"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=22e845441b4611101f8ffcc8cc4bcba5"/>
     <sys_hub_action_output action="delete_multiple" query="model=e1464ce51ba451101f8ffcc8cc4bcb3d^sys_idNOT IN00c0d0a11be451101f8ffcc8cc4bcbae,111904e91ba451101f8ffcc8cc4bcbf2,44c0d0a11be451101f8ffcc8cc4bcbbb,48c0d0a11be451101f8ffcc8cc4bcba9,80c0d0a11be451101f8ffcc8cc4bcba5,88c0d0a11be451101f8ffcc8cc4bcba0,8cc0d0a11be451101f8ffcc8cc4bcbb6,c4c0d0a11be451101f8ffcc8cc4bcbb2,dd1904e91ba451101f8ffcc8cc4bcbf6"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2444,7 +2444,7 @@ Get geographic data from a public IP address.</description>
         <sys_updated_on>2022-07-07 04:45:57</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=abb6c0691ba451101f8ffcc8cc4bcb01"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e1464ce51ba451101f8ffcc8cc4bcb3d^sys_idNOT IN411904e91ba451101f8ffcc8cc4bcbb0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e1464ce51ba451101f8ffcc8cc4bcb3d^sys_idNOT INe6e845441b4611101f8ffcc8cc4bcba8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ip_address</element>
         <help/>
@@ -2455,8 +2455,8 @@ Get geographic data from a public IP address.</description>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-07 04:56:10</sys_created_on>
-        <sys_id>411904e91ba451101f8ffcc8cc4bcbb0</sys_id>
+        <sys_created_on>2022-09-15 07:18:22</sys_created_on>
+        <sys_id>e6e845441b4611101f8ffcc8cc4bcba8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value=" IPInfo Spoke" source="x_832172_ipinfo_sp">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_package>
@@ -2464,7 +2464,7 @@ Get geographic data from a public IP address.</description>
         <sys_scope display_value=" IPInfo Spoke">74c5c86d1b2451101f8ffcc8cc4bcbb6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 04:56:10</sys_updated_on>
+        <sys_updated_on>2022-09-15 07:18:22</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
